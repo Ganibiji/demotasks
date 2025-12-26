@@ -1,0 +1,38 @@
+▶️ How to Run in Tomcat (VERY EASY)
+1️⃣ Extract the ZIP
+
+Unzip tomcat-static-demo.zip
+
+2️⃣ Copy Folder into Tomcat
+
+Copy the image-demo folder into:
+
+TOMCAT_HOME/webapps/
+
+
+Example:
+
+C:\apache-tomcat-10\webapps\image-demo
+
+3️⃣ Start Tomcat
+startup.bat
+
+
+or
+
+startup.sh
+
+4️⃣ Open in Browser 🌍
+http://localhost:8080/image-demo/index.html
+
+✅ Expected Output
+
+Page title: Static HTML & Image from Tomcat
+
+Image displayed with text “Tomcat Image Demo”
+
+If you see the image → Tomcat static files are working perfectly 🎉
+
+🧠 One-Line Understanding
+
+Tomcat can directly serve static HTML and image files placed inside the webapps folder without any Java code.

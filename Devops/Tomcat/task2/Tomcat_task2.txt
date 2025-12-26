@@ -1,0 +1,54 @@
+
+📁 What’s Inside the ZIP
+hello-tomcat/
+ └── WEB-INF/
+     ├── web.xml
+     └── classes/
+         └── HelloServlet.java
+
+
+This is a pure Tomcat Servlet project (no Maven, no Spring).
+
+▶️ How to Run (3 Simple Steps)
+1️⃣ Extract the ZIP
+
+Unzip it and copy the hello-tomcat folder into:
+
+TOMCAT_HOME/webapps/
+
+
+Example:
+
+C:\apache-tomcat-10\webapps\hello-tomcat
+
+2️⃣ Compile the Servlet
+
+Go to:
+
+hello-tomcat/WEB-INF/classes
+
+
+Run:
+
+javac -cp "TOMCAT_HOME/lib/*" HelloServlet.java
+ex: javac -cp C:\Program Files\Apache Software Foundation\Tomcat 9.0\lib\* HelloServlet.java
+
+ex2 >javac -cp "C:\Program Files\Apache Software Foundation\Tomcat 9.0\lib"\* HelloServlet.java
+
+
+
+✅ This creates HelloServlet.class
+
+3️⃣ Start Tomcat
+startup.bat   (Windows)
+startup.sh    (Linux / Mac)
+
+🌍 Access in Browser
+http://localhost:8080/hello-tomcat/hello
+
+http://localhost:8080/hello-demo
+http://localhost:8080/hello-demo/hello
+
+
+✅ Output
+Hello Tomcat 👋

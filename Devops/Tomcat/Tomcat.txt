@@ -1,0 +1,7 @@
+download apache tomcat 
+https://tomcat.apache.org/download-90.cgi
+Intall tocmat 
+
+1️⃣ Copy WAR file
+Copy your WAR file into:
+TOMCAT_HOME/webapps/
